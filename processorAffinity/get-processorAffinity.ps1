@@ -1,0 +1,1 @@
+Get-Process notepad | Select-Object ProcessorAffinity
