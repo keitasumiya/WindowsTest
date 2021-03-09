@@ -1,0 +1,1 @@
+rundll32.exe MouseControll.dll,_SetMouseXY@16 15360,2160
