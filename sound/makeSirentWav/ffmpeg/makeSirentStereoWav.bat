@@ -1,0 +1,1 @@
+ffmpeg -f lavfi -i "aevalsrc=0|0:c=stereo:s=48000:d=60" sirent-stereo.wav
