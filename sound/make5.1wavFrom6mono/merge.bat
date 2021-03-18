@@ -1,0 +1,1 @@
+ffmpeg -y -i data/FL.wav -i data/FR.wav -i data/FC.wav -i data/LFE.wav -i data/BL.wav -i data/BR.wav -filter_complex "[0:a][1:a][2:a][3:a][4:a][5:a]join=inputs=6:channel_layout=5.1:map=0.0-FL|1.0-FR|2.0-FC|3.0-LFE|4.0-BL|5.0-BR[a]" -map "[a]" surround.wav
