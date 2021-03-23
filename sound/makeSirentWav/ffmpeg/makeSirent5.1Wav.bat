@@ -1,0 +1,1 @@
+ffmpeg -f lavfi -i "aevalsrc=0|0|0|0|0|0:c=5.1:s=48000:d=60" sirent-5.1ch.wav
